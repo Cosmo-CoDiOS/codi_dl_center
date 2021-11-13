@@ -1,4 +1,4 @@
-package org.cosmo_codios.apps.download_enter;
+package org.cosmo_codios.apps.dl_center;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
