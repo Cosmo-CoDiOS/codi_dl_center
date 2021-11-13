@@ -21,6 +21,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	<developers>
+		<developer>
+			<id>shymega</id>
+			<name>Dom Rodriguez</name>
+			<email>shymega+cosmo-codios.dl-center@shymega.org.uk</email>
+			<timezone>Europe/London</timezone>
+			<roles>
+				<role>Creator</role>
+				<role>Lead Developer</role>
+			</roles>
+		</developer>
+	</developers>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
