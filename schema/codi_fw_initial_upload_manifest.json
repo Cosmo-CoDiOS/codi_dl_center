@@ -14,7 +14,7 @@
                 "version": {
                     "type": "string"
                 },
-                "sha512": {
+                "sha1": {
                     "type": "string"
                 },
                 "vendor": {
