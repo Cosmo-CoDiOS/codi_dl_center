@@ -12,8 +12,8 @@
 	<artifactId>ota-hub</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>CoDi Download Centre</name>
-	<description>CoDi Download Centre web application</description>
+	<name>CoDi assets and firmware OTA hub</name>
+	<description>CoDi assets and firmware OTA web application</description>
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
