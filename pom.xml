@@ -88,6 +88,23 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.jsonschema2pojo</groupId>
+				<artifactId>jsonschema2pojo-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<configuration>
+					<sourceDirectory>${project.basedir}/schema</sourceDirectory>
+					<targetPackage>com.github.cosmocodios.infra.ota.model</targetPackage>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
