@@ -1,4 +1,4 @@
-package org.cosmo_codios.apps.dl_center;
+package com.github.cosmocodios.infra.ota;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

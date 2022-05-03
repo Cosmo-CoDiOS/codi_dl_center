@@ -1,4 +1,4 @@
-package org.cosmo_codios.apps.dl_center;
+package com.github.cosmocodios.infra.ota;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
