@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codi-dl.planetcom.co.uk/schemas/codi_fw_initial_upload_manifest.json",
+    "title": "CoDi (Cosmo-CoDiOS) codid assistant (Android) asset manifest",
+    "description": "Manifest included with the CoDi (Cosmo-CoDiOS) codid assistant (Android)",
+    "type": "object",
+    "properties": {
+        "codidAssistant": {
+            "type": "object",
+            "properties": {
+                "codidAssistantVersion": {
+                    "type": "string"
+                },
+                "codidAssistantChecksum": {
+                    "type": "string"
+                },
+                "codidAssistantVendor": {
+                    "type": "string",
+                    "enum": ["CODI_OS"]
+                }
+            },
+            "required": [
+                "codidAssistantVersion",
+                "codidAssistantChecksum",
+                "codidAssistantVendor"
+            ]
+        }
+    },
+    "required": [
+        "codidAssistant"
+    ]
+}

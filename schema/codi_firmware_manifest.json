@@ -1,31 +1,28 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://codi-dl.planetcom.co.uk/schemas/codi_fw_initial_upload_manifest.json",
-    "title": "CoDi Firmware (initial upload) Manifest",
-    "description": "CoDi firmware manifest to be included in initial upload to DL center.",
+    "title": "CoDi firmware asset manifest",
+    "description": "Manifest included with the CoDi firmware (varies)",
     "type": "object",
     "properties": {
         "firmware": {
             "type": "object",
             "properties": {
-                "variant": {
+                "firmwareVersion": {
                     "type": "string"
                 },
-                "version": {
+                "firmwareChecksum": {
                     "type": "string"
                 },
-                "sha1": {
-                    "type": "string"
-                },
-                "vendor": {
-                    "type": "string"
+                "firmwareVendor": {
+                    "type": "string",
+                    "enum": ["PLANET", "CODI_OS"]
                 }
             },
             "required": [
-                "variant",
-                "version",
-                "sha512",
-                "vendor"
+                "firmwareVersion",
+                "firmwareChecksum",
+                "firmwareVendor"
             ]
         }
     },

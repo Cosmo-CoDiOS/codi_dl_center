@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codi-dl.planetcom.co.uk/schemas/codi_fw_initial_upload_manifest.json",
+    "title": "CoDi stock assistant (Android) asset manifest",
+    "description": "Manifest included with the CoDi stock assistant (Android)",
+    "type": "object",
+    "properties": {
+        "codiStockAssistant": {
+            "type": "object",
+            "properties": {
+                "codiStockAssistantVersion": {
+                    "type": "string"
+                },
+                "codiStockAssistantChecksum": {
+                    "type": "string"
+                },
+                "codiStockAssistantVendor": {
+                    "type": "string",
+                    "enum": ["PLANET"]
+                }
+            },
+            "required": [
+                "codiStockAssistantVersion",
+                "codiStockAssistantChecksum",
+                "codiStockAssistantVendor"
+            ]
+        }
+    },
+    "required": [
+        "codiStockAssistant"
+    ]
+}
