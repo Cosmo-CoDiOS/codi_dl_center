@@ -20,10 +20,7 @@
             "type": "string",
             "enum": [
               "BOOTLOADER",
-              "CODI_APP",
-              "CODID_SERVER",
-              "STOCK_ASSISTANT_ANDROID",
-              "CODID_ASSISTANT_ANDROID",
+              "CODID",
               "FIRMWARE",
               "RESOURCES"
             ]
