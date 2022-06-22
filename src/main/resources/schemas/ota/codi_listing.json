@@ -8,7 +8,7 @@
     "lastUpdated": {
       "type": "string"
     },
-    "availableItems": {
+    "availableAssets": {
       "type": "array",
       "items": {
         "type": "object",
