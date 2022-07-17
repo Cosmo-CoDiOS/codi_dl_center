@@ -5,16 +5,16 @@
   "description": "Manifest included with the CoDi resources (varies)",
   "type": "object",
   "properties": {
-    "codiResources": {
+    "resource": {
       "type": "object",
       "properties": {
-        "codiResourcesVersion": {
+        "resourceVersion": {
           "type": "string"
         },
-        "codiResourcesChecksum": {
+        "resourceChecksum": {
           "type": "string"
         },
-        "codiResourcesVendor": {
+        "resourceVendor": {
           "type": "string",
           "enum": [
             "PLANET",
@@ -23,13 +23,13 @@
         }
       },
       "required": [
-        "codiResourcesVersion",
-        "codiResourcesChecksum",
-        "codiResourcesVendor"
+        "resourcesVersion",
+        "resourcesChecksum",
+        "resourcesVendor"
       ]
     }
   },
   "required": [
-    "codiResources"
+    "rsources"
   ]
 }
